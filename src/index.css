@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@300&family=Inter:wght@700&family=Kanit:wght@700&family=Oxygen:wght@400;700&family=Poppins:wght@400;500;700;800&display=swap');
+
+
+body {
+    background-color: #000300;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul > li {
+    cursor: pointer;
+    transition: All .4s ease-in-out;
+}
+
+ul > li:hover {
+    transform: scale(1.1);
+}
